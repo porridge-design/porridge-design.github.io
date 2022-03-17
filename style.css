@@ -11,15 +11,27 @@ html {
 body {
   font-size: 16px;
   box-sizing: border-box;
-  padding: 3rem 4rem;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    padding: 3rem 4rem;
+  }
 }
 
 p {
   font-family: "Nunito", sans-serif;
-  font-size: 1.3rem;
-  line-height: 2.1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
   color: #fff;
   text-align: center;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
 }
 
 hr {
@@ -39,6 +51,13 @@ hr {
   width: 80vw;
   max-width: 160px;
   display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  #logo {
+    margin: 0;
+  }
 }
 
 #text {
