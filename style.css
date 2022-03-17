@@ -45,6 +45,7 @@ hr {
 
 .uppercase {
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 #logo {
