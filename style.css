@@ -1,0 +1,49 @@
+html {
+  width: 100vw;
+  height: 100%;
+  background-image: url("./background.jpg");
+  background-color: grey;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 3rem 4rem;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  color: #fff;
+  text-align: center;
+}
+
+hr {
+  width: 40vw;
+  max-width: 240px;
+  height: 2px;
+  border: 0;
+  background-color: #fff;
+  margin: 6vh auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#logo {
+  width: 80vw;
+  max-width: 160px;
+  display: block;
+}
+
+#text {
+  width: 80vw;
+  max-width: 600px;
+  display: block;
+  margin: 12vh auto 0;
+}
